@@ -197,7 +197,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Razor.Templating.Core/1.5.0": {
+      "Razor.Templating.Core/1.6.0-rc.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.3"
@@ -288,9 +288,6 @@
       "RazorTemplatingViewComponent/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Razor.Templating.Core": "1.5.0"
-        },
         "compile": {
           "bin/placeholder/RazorTemplatingViewComponent.dll": {}
         },
@@ -497,10 +494,10 @@
         "version.txt"
       ]
     },
-    "Razor.Templating.Core/1.5.0": {
-      "sha512": "rGtWOXeA+/69VS8jaKr9Dd4G5tOhOCQoQYQWjhHx6uFbyZRBjTGI2VJ2SLZ23QP1NS8qn3xLx7iGYUwV655AwQ==",
+    "Razor.Templating.Core/1.6.0-rc.2": {
+      "sha512": "ZP+kvIGI7dbEIboT6/XY0KKKZsw6ykYI49+b7jpu6rmlYX/m4c8MwnvbUJwkMu4Afma+9u+Kajlbckxo82etTQ==",
       "type": "package",
-      "path": "razor.templating.core/1.5.0",
+      "path": "razor.templating.core/1.6.0-rc.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -508,7 +505,7 @@
         "lib/net5.0/Razor.Templating.Core.dll",
         "lib/netcoreapp3.0/Razor.Templating.Core.dll",
         "lib/netcoreapp3.1/Razor.Templating.Core.dll",
-        "razor.templating.core.1.5.0.nupkg.sha512",
+        "razor.templating.core.1.6.0-rc.2.nupkg.sha512",
         "razor.templating.core.nuspec"
       ]
     },
@@ -702,7 +699,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Razor.Templating.Core >= 1.5.0",
+      "Razor.Templating.Core >= 1.6.0-rc.2",
       "RazorTemplatingViewComponent >= 1.0.0"
     ]
   },
@@ -754,7 +751,7 @@
         "dependencies": {
           "Razor.Templating.Core": {
             "target": "Package",
-            "version": "[1.5.0, )"
+            "version": "[1.6.0-rc.2, )"
           }
         },
         "imports": [
@@ -772,7 +769,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

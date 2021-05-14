@@ -31,7 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "RazorTemplatingTest/1.0.0": {
         "dependencies": {
-          "Razor.Templating.Core": "1.5.0",
+          "Razor.Templating.Core": "1.6.0-rc.2",
           "RazorTemplatingViewComponent": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -512,14 +512,14 @@
         }
       },
       "Microsoft.NETCore.Platforms/2.1.2": {},
-      "Razor.Templating.Core/1.5.0": {
+      "Razor.Templating.Core/1.6.0-rc.2": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "3.1.3"
         },
         "runtime": {
           "lib/netcoreapp3.1/Razor.Templating.Core.dll": {
-            "assemblyVersion": "1.5.0.0",
-            "fileVersion": "1.5.0.0"
+            "assemblyVersion": "1.6.0.0",
+            "fileVersion": "1.6.0.0"
           }
         },
         "compile": {
@@ -549,9 +549,6 @@
       },
       "System.Threading.Tasks.Extensions/4.5.3": {},
       "RazorTemplatingViewComponent/1.0.0": {
-        "dependencies": {
-          "Razor.Templating.Core": "1.5.0"
-        },
         "runtime": {
           "RazorTemplatingViewComponent.dll": {}
         },
@@ -2316,12 +2313,12 @@
       "path": "microsoft.netcore.platforms/2.1.2",
       "hashPath": "microsoft.netcore.platforms.2.1.2.nupkg.sha512"
     },
-    "Razor.Templating.Core/1.5.0": {
+    "Razor.Templating.Core/1.6.0-rc.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-rGtWOXeA+/69VS8jaKr9Dd4G5tOhOCQoQYQWjhHx6uFbyZRBjTGI2VJ2SLZ23QP1NS8qn3xLx7iGYUwV655AwQ==",
-      "path": "razor.templating.core/1.5.0",
-      "hashPath": "razor.templating.core.1.5.0.nupkg.sha512"
+      "sha512": "sha512-ZP+kvIGI7dbEIboT6/XY0KKKZsw6ykYI49+b7jpu6rmlYX/m4c8MwnvbUJwkMu4Afma+9u+Kajlbckxo82etTQ==",
+      "path": "razor.templating.core/1.6.0-rc.2",
+      "hashPath": "razor.templating.core.1.6.0-rc.2.nupkg.sha512"
     },
     "System.Collections.Immutable/1.5.0": {
       "type": "package",
