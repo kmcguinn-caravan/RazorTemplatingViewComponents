@@ -9,7 +9,11 @@ namespace RazorTemplatingViewComponent.Views.Shared.Components.SomeComponent
     {
         public IViewComponentResult Invoke()
         {
-            return View();
+            var model = new SomeModel
+            {
+                SomeProperty = "Some Value"
+            };
+            return View(model);
         }
     }
 }
